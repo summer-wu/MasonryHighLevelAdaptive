@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D34E0A81BDA74DD001B327A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D34E0A61BDA74DD001B327A /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
 		0D50535C1BD9D139004CA325 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D50535B1BD9D139004CA325 /* main.m */; };
 		0D50535F1BD9D139004CA325 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D50535E1BD9D139004CA325 /* AppDelegate.m */; };
 		0D5053651BD9D139004CA325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5053631BD9D139004CA325 /* Main.storyboard */; };
 		0D5053671BD9D139004CA325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D5053661BD9D139004CA325 /* Assets.xcassets */; };
-		0D50536A1BD9D139004CA325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5053681BD9D139004CA325 /* LaunchScreen.storyboard */; };
-		0DCFA9511BD9D30F0047A14B /* UIView+MasonryHighLevelAdaptive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCFA9501BD9D30F0047A14B /* UIView+MasonryHighLevelAdaptive.m */; settings = {ASSET_TAGS = (); }; };
-		0DCFA9571BD9DA120047A14B /* JuneStaticMenuTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCFA9561BD9DA120047A14B /* JuneStaticMenuTVC.m */; settings = {ASSET_TAGS = (); }; };
-		0DCFA95A1BD9DAF50047A14B /* JuneAdaptiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCFA9591BD9DAF50047A14B /* JuneAdaptiveVC.m */; settings = {ASSET_TAGS = (); }; };
-		0DCFA95C1BDA57F70047A14B /* H+VDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DCFA95B1BDA57F70047A14B /* H+VDemo.xib */; settings = {ASSET_TAGS = (); }; };
-		0DCFA95F1BDA586A0047A14B /* JuneComplexVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCFA95E1BDA586A0047A14B /* JuneComplexVC.m */; settings = {ASSET_TAGS = (); }; };
-		0DCFA9621BDA59710047A14B /* JuneBlueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCFA9611BDA59710047A14B /* JuneBlueView.m */; settings = {ASSET_TAGS = (); }; };
+		0DCFA9511BD9D30F0047A14B /* UIView+MasonryHighLevelAdaptive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCFA9501BD9D30F0047A14B /* UIView+MasonryHighLevelAdaptive.m */; };
+		0DCFA9571BD9DA120047A14B /* JuneStaticMenuTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCFA9561BD9DA120047A14B /* JuneStaticMenuTVC.m */; };
+		0DCFA95A1BD9DAF50047A14B /* JuneAdaptiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCFA9591BD9DAF50047A14B /* JuneAdaptiveVC.m */; };
+		0DCFA95C1BDA57F70047A14B /* BlueV.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DCFA95B1BDA57F70047A14B /* BlueV.xib */; };
+		0DCFA95F1BDA586A0047A14B /* JuneComplexVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCFA95E1BDA586A0047A14B /* JuneComplexVC.m */; };
+		0DCFA9621BDA59710047A14B /* JuneBlueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCFA9611BDA59710047A14B /* JuneBlueView.m */; };
 		A70AF2CA40DC018B881AA8BD /* libPods-MasonryHighLevelAdaptiveExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D7014037356A02F4274854 /* libPods-MasonryHighLevelAdaptiveExample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D34E0A71BDA74DD001B327A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D5053571BD9D139004CA325 /* MasonryHighLevelAdaptiveExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasonryHighLevelAdaptiveExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D50535B1BD9D139004CA325 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0D50535D1BD9D139004CA325 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0D50535E1BD9D139004CA325 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0D5053641BD9D139004CA325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D5053661BD9D139004CA325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0D5053691BD9D139004CA325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D50536B1BD9D139004CA325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DCFA94F1BD9D30F0047A14B /* UIView+MasonryHighLevelAdaptive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MasonryHighLevelAdaptive.h"; sourceTree = "<group>"; };
 		0DCFA9501BD9D30F0047A14B /* UIView+MasonryHighLevelAdaptive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MasonryHighLevelAdaptive.m"; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 		0DCFA9561BD9DA120047A14B /* JuneStaticMenuTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuneStaticMenuTVC.m; sourceTree = "<group>"; };
 		0DCFA9581BD9DAF50047A14B /* JuneAdaptiveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuneAdaptiveVC.h; sourceTree = "<group>"; };
 		0DCFA9591BD9DAF50047A14B /* JuneAdaptiveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuneAdaptiveVC.m; sourceTree = "<group>"; };
-		0DCFA95B1BDA57F70047A14B /* H+VDemo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "H+VDemo.xib"; sourceTree = "<group>"; };
+		0DCFA95B1BDA57F70047A14B /* BlueV.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueV.xib; sourceTree = "<group>"; };
 		0DCFA95D1BDA586A0047A14B /* JuneComplexVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuneComplexVC.h; sourceTree = "<group>"; };
 		0DCFA95E1BDA586A0047A14B /* JuneComplexVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuneComplexVC.m; sourceTree = "<group>"; };
 		0DCFA9601BDA59710047A14B /* JuneBlueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuneBlueView.h; sourceTree = "<group>"; };
@@ -89,9 +89,9 @@
 				0DCFA95D1BDA586A0047A14B /* JuneComplexVC.h */,
 				0DCFA95E1BDA586A0047A14B /* JuneComplexVC.m */,
 				0D5053631BD9D139004CA325 /* Main.storyboard */,
-				0DCFA95B1BDA57F70047A14B /* H+VDemo.xib */,
+				0D34E0A61BDA74DD001B327A /* LaunchScreen.storyboard */,
+				0DCFA95B1BDA57F70047A14B /* BlueV.xib */,
 				0D5053661BD9D139004CA325 /* Assets.xcassets */,
-				0D5053681BD9D139004CA325 /* LaunchScreen.storyboard */,
 				0D50536B1BD9D139004CA325 /* Info.plist */,
 				0D50535A1BD9D139004CA325 /* Supporting Files */,
 				0DCFA9601BDA59710047A14B /* JuneBlueView.h */,
@@ -193,9 +193,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D50536A1BD9D139004CA325 /* LaunchScreen.storyboard in Resources */,
 				0D5053671BD9D139004CA325 /* Assets.xcassets in Resources */,
-				0DCFA95C1BDA57F70047A14B /* H+VDemo.xib in Resources */,
+				0D34E0A81BDA74DD001B327A /* LaunchScreen.storyboard in Resources */,
+				0DCFA95C1BDA57F70047A14B /* BlueV.xib in Resources */,
 				0D5053651BD9D139004CA325 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,20 +253,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		0D34E0A61BDA74DD001B327A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D34E0A71BDA74DD001B327A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		0D5053631BD9D139004CA325 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0D5053641BD9D139004CA325 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0D5053681BD9D139004CA325 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0D5053691BD9D139004CA325 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -358,7 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MasonryHighLevelAdaptiveExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.summerwu.MasonryHighLevelAdaptiveExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -371,7 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MasonryHighLevelAdaptiveExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.summerwu.MasonryHighLevelAdaptiveExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";

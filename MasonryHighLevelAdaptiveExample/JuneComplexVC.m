@@ -40,12 +40,10 @@
     [self greenVerticalCenter];
     [self greenSubviewsEqualWidth];
     [self greenSubviewsAddBorder];
-    
-    //setup blueSubviews
 }
 
 -(void)loadBlueView{
-    _blueV=[[NSBundle mainBundle]loadNibNamed:@"H+VDemo" owner:nil options:nil][0];
+    _blueV=[[NSBundle mainBundle]loadNibNamed:@"BlueV" owner:nil options:nil][0];
     _blueV.translatesAutoresizingMaskIntoConstraints=NO;//important
     [self.view addSubview:_blueV];
 }
@@ -55,7 +53,7 @@
 -(void)removePrototypingConstraints{
     [self.view removePrototypingConstraints];//redV greenV have PrototypingConstraints
 // don't need  [_redV removePrototypingConstraints]. redSubviews don't have PrototypingConstraints.Use XIB(disable autolayout) to avoid PrototypingConstraints.
-    [_greenV removePrototypingConstraints];//remove 4 buttons all constraints
+    [_greenV removePrototypingConstraints];//remove constraints about 4 buttons
 }
 
 -(void)rgbEqualWidthHeight{
@@ -72,7 +70,7 @@
     }];
 }
 
-//spacer's thickness is 20pt
+///spacer's thickness is 20pt
 -(void)rgbVerticalAdaptive{
     UIView * topEdge=[self.view addEdgeViewAtEdge:UIRectEdgeTop];
     UIView * bottomEdge=[self.view addEdgeViewAtEdge:UIRectEdgeBottom];

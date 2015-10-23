@@ -1,9 +1,9 @@
 #MasonryHighLevelAdaptive
 masonry可以非常快速简便地添加约束。
 
-但是有一些常见的**等比例间距**用masonry中要写很多代码。
+但是有一些常见的**相等间距**用masonry中要写很多代码。
 
-UIView+MasonryHighLevelAdaptive是我在日常开发中用到的category，可以方便地实现**等比例间距**。
+UIView+MasonryHighLevelAdaptive是我在日常开发中用到的category，可以方便地实现**相等间距**。
 
 #示例
 <img src="https://cloud.githubusercontent.com/assets/2476434/10684568/5bcce420-7981-11e5-9b63-9bfbe23e2b55.png" alt="horizon" width=200px height=300px />

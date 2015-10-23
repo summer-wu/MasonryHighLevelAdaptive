@@ -8,6 +8,8 @@ UIView+MasonryHighLevelAdaptive是我在日常开发中用到的category，可�
 #示例
 <img src="https://cloud.githubusercontent.com/assets/2476434/10684568/5bcce420-7981-11e5-9b63-9bfbe23e2b55.png" alt="horizon" width=200px height=300px />
 <img src="https://cloud.githubusercontent.com/assets/2476434/10684657/74b0c316-7982-11e5-9a27-b6989a2eaba9.jpg" alt="vertical" width=200px height=300px  />
+<img src="https://cloud.githubusercontent.com/assets/2476434/10694641/e4a99a22-79d1-11e5-9063-f8a0219ba73b.png" alt="portrait" width=200px height=300px  />
+<img src="https://cloud.githubusercontent.com/assets/2476434/10694642/e503a0e4-79d1-11e5-9818-6c635d57af5e.png" alt="land" width=333px height=187px  />
 
 
 #下载

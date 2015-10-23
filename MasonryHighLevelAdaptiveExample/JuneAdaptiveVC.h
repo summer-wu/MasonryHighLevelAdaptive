@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JuneAdaptiveVC.h
 //  MasonryHighLevelAdaptiveExample
 //
 //  Created by n on 15/10/23.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface JuneAdaptiveVC : UIViewController
+-(instancetype)initWithIndexPath:(NSIndexPath *)indexPath;
 @end
-

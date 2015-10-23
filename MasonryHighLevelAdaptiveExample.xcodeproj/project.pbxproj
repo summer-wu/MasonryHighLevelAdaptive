@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		0D50535C1BD9D139004CA325 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D50535B1BD9D139004CA325 /* main.m */; };
 		0D50535F1BD9D139004CA325 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D50535E1BD9D139004CA325 /* AppDelegate.m */; };
-		0D5053621BD9D139004CA325 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5053611BD9D139004CA325 /* ViewController.m */; };
 		0D5053651BD9D139004CA325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5053631BD9D139004CA325 /* Main.storyboard */; };
 		0D5053671BD9D139004CA325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D5053661BD9D139004CA325 /* Assets.xcassets */; };
 		0D50536A1BD9D139004CA325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5053681BD9D139004CA325 /* LaunchScreen.storyboard */; };
+		0DCFA9511BD9D30F0047A14B /* UIView+MasonryHighLevelAdaptive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCFA9501BD9D30F0047A14B /* UIView+MasonryHighLevelAdaptive.m */; settings = {ASSET_TAGS = (); }; };
+		0DCFA9571BD9DA120047A14B /* JuneStaticMenuTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCFA9561BD9DA120047A14B /* JuneStaticMenuTVC.m */; settings = {ASSET_TAGS = (); }; };
+		0DCFA95A1BD9DAF50047A14B /* JuneAdaptiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCFA9591BD9DAF50047A14B /* JuneAdaptiveVC.m */; settings = {ASSET_TAGS = (); }; };
 		A70AF2CA40DC018B881AA8BD /* libPods-MasonryHighLevelAdaptiveExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D7014037356A02F4274854 /* libPods-MasonryHighLevelAdaptiveExample.a */; };
 /* End PBXBuildFile section */
 
@@ -21,12 +23,16 @@
 		0D50535B1BD9D139004CA325 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0D50535D1BD9D139004CA325 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0D50535E1BD9D139004CA325 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0D5053601BD9D139004CA325 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0D5053611BD9D139004CA325 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0D5053641BD9D139004CA325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D5053661BD9D139004CA325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D5053691BD9D139004CA325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D50536B1BD9D139004CA325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DCFA94F1BD9D30F0047A14B /* UIView+MasonryHighLevelAdaptive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MasonryHighLevelAdaptive.h"; sourceTree = "<group>"; };
+		0DCFA9501BD9D30F0047A14B /* UIView+MasonryHighLevelAdaptive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MasonryHighLevelAdaptive.m"; sourceTree = "<group>"; };
+		0DCFA9551BD9DA120047A14B /* JuneStaticMenuTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuneStaticMenuTVC.h; sourceTree = "<group>"; };
+		0DCFA9561BD9DA120047A14B /* JuneStaticMenuTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuneStaticMenuTVC.m; sourceTree = "<group>"; };
+		0DCFA9581BD9DAF50047A14B /* JuneAdaptiveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuneAdaptiveVC.h; sourceTree = "<group>"; };
+		0DCFA9591BD9DAF50047A14B /* JuneAdaptiveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuneAdaptiveVC.m; sourceTree = "<group>"; };
 		40D7014037356A02F4274854 /* libPods-MasonryHighLevelAdaptiveExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MasonryHighLevelAdaptiveExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD7B0AE1CA6F48E46E8C3B4 /* Pods-MasonryHighLevelAdaptiveExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryHighLevelAdaptiveExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryHighLevelAdaptiveExample/Pods-MasonryHighLevelAdaptiveExample.release.xcconfig"; sourceTree = "<group>"; };
 		A349A97A1D0834FA4B170CB4 /* Pods-MasonryHighLevelAdaptiveExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryHighLevelAdaptiveExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryHighLevelAdaptiveExample/Pods-MasonryHighLevelAdaptiveExample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -47,6 +53,7 @@
 		0D50534E1BD9D139004CA325 = {
 			isa = PBXGroup;
 			children = (
+				0DCFA94E1BD9D30F0047A14B /* UIView+MasonryHighLevelAdaptive */,
 				0D5053591BD9D139004CA325 /* MasonryHighLevelAdaptiveExample */,
 				0D5053581BD9D139004CA325 /* Products */,
 				EFF73A1A73AA8CC0D350ECE7 /* Pods */,
@@ -67,8 +74,10 @@
 			children = (
 				0D50535D1BD9D139004CA325 /* AppDelegate.h */,
 				0D50535E1BD9D139004CA325 /* AppDelegate.m */,
-				0D5053601BD9D139004CA325 /* ViewController.h */,
-				0D5053611BD9D139004CA325 /* ViewController.m */,
+				0DCFA9551BD9DA120047A14B /* JuneStaticMenuTVC.h */,
+				0DCFA9561BD9DA120047A14B /* JuneStaticMenuTVC.m */,
+				0DCFA9581BD9DAF50047A14B /* JuneAdaptiveVC.h */,
+				0DCFA9591BD9DAF50047A14B /* JuneAdaptiveVC.m */,
 				0D5053631BD9D139004CA325 /* Main.storyboard */,
 				0D5053661BD9D139004CA325 /* Assets.xcassets */,
 				0D5053681BD9D139004CA325 /* LaunchScreen.storyboard */,
@@ -84,6 +93,15 @@
 				0D50535B1BD9D139004CA325 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DCFA94E1BD9D30F0047A14B /* UIView+MasonryHighLevelAdaptive */ = {
+			isa = PBXGroup;
+			children = (
+				0DCFA94F1BD9D30F0047A14B /* UIView+MasonryHighLevelAdaptive.h */,
+				0DCFA9501BD9D30F0047A14B /* UIView+MasonryHighLevelAdaptive.m */,
+			);
+			path = "UIView+MasonryHighLevelAdaptive";
 			sourceTree = "<group>";
 		};
 		67A3592842612143BEA3C02E /* Frameworks */ = {
@@ -208,9 +226,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D5053621BD9D139004CA325 /* ViewController.m in Sources */,
+				0DCFA9511BD9D30F0047A14B /* UIView+MasonryHighLevelAdaptive.m in Sources */,
 				0D50535F1BD9D139004CA325 /* AppDelegate.m in Sources */,
 				0D50535C1BD9D139004CA325 /* main.m in Sources */,
+				0DCFA9571BD9DA120047A14B /* JuneStaticMenuTVC.m in Sources */,
+				0DCFA95A1BD9DAF50047A14B /* JuneAdaptiveVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -309,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -322,7 +342,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MasonryHighLevelAdaptiveExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.summerwu.MasonryHighLevelAdaptiveExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -335,7 +355,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MasonryHighLevelAdaptiveExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.summerwu.MasonryHighLevelAdaptiveExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";

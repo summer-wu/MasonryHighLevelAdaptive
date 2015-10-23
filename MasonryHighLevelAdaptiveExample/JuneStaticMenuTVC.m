@@ -17,7 +17,9 @@
 
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    JuneAdaptiveVC *vc=[[JuneAdaptiveVC alloc]initWithIndexPath:indexPath];
-    [self.navigationController pushViewController:vc animated:YES];
+    if (0==indexPath.section) {
+        JuneAdaptiveVC *vc=[[JuneAdaptiveVC alloc]initWithIndexPath:indexPath];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 @end

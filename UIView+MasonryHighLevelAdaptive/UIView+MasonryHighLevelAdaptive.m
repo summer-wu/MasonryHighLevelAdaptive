@@ -96,11 +96,11 @@
     [self addSubview:edgeView];
     
     NSUInteger thickNess=0;
-#ifdef DEBUG
-    edgeView.hidden=NO;
-    edgeView.backgroundColor=[UIColor blueColor];
-    thickNess=10;
-#endif
+//#ifdef DEBUG
+//    edgeView.hidden=NO;
+//    edgeView.backgroundColor=[UIColor blueColor];
+//    thickNess=10;
+//#endif
     
     switch (edge) {
         case UIRectEdgeTop :{

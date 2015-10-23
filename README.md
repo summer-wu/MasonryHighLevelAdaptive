@@ -6,8 +6,8 @@ masonry可以非常快速简便地添加约束。
 UIView+MasonryHighLevelAdaptive是我在日常开发中用到的category，可以方便地实现**等比例间距**。
 
 #示例
-<img src="https://cloud.githubusercontent.com/assets/2476434/10684568/5bcce420-7981-11e5-9b63-9bfbe23e2b55.png" alt="horizon" style="width:200px;height:300px">
-<img src="https://cloud.githubusercontent.com/assets/2476434/10684657/74b0c316-7982-11e5-9a27-b6989a2eaba9.jpg" alt="vertical" style="width:200px;height:300px">
+<img src="https://cloud.githubusercontent.com/assets/2476434/10684568/5bcce420-7981-11e5-9b63-9bfbe23e2b55.png" alt="horizon" width=200px height=300px />
+<img src="https://cloud.githubusercontent.com/assets/2476434/10684657/74b0c316-7982-11e5-9a27-b6989a2eaba9.jpg" alt="vertical" width=200px height=300px  />
 
 
 #下载
